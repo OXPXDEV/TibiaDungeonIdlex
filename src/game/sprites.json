@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "name": "Tibia Open-Server Sprite Library",
+    "version": "1.0.0",
+    "source": "Open Tibia sprite archives (public domain / community resources)",
+    "license": "Open community assets used for educational/indie projects",
+    "note": "Sprites referenced by name. Visual fallback: emoji (see data.js). Replace with actual .png/.gif when integrating asset server."
+  },
+  "basePath": "https://raw.githubusercontent.com/gesior/gesior-tfs-template/master/images/",
+  "sprites": {
+    "vocations": {
+      "knight":     { "icon": "knight",       "file": "vocations/knight.png",     "fallback": "⚔️" },
+      "paladin":    { "icon": "paladin",      "file": "vocations/paladin.png",    "fallback": "🏹" },
+      "sorcerer":   { "icon": "sorcerer",     "file": "vocations/sorcerer.png",   "fallback": "🪄" },
+      "druid":      { "icon": "druid",        "file": "vocations/druid.png",      "fallback": "🌿" },
+      "monk":       { "icon": "monk",         "file": "vocations/monk.png",       "fallback": "🥋" }
+    },
+    "monsters": {
+      "rat":        { "file": "monsters/rat.gif",        "fallback": "🐀" },
+      "cave_rat":   { "file": "monsters/cave_rat.gif",   "fallback": "🐁" },
+      "spider":     { "file": "monsters/spider.gif",     "fallback": "🕷️" },
+      "poison_spider": { "file": "monsters/poison_spider.gif", "fallback": "🕸️" },
+      "wolf":       { "file": "monsters/wolf.gif",       "fallback": "🐺" },
+      "bear":       { "file": "monsters/bear.gif",       "fallback": "🐻" },
+      "skeleton":   { "file": "monsters/skeleton.gif",   "fallback": "💀" },
+      "troll":      { "file": "monsters/troll.gif",      "fallback": "👹" },
+      "goblin":     { "file": "monsters/goblin.gif",     "fallback": "👺" },
+      "orc":        { "file": "monsters/orc.gif",        "fallback": "👹" },
+      "minotaur":   { "file": "monsters/minotaur.gif",   "fallback": "🐂" },
+      "demon":      { "file": "monsters/demon.gif",      "fallback": "😈" },
+      "dragon":     { "file": "monsters/dragon.gif",     "fallback": "🐉" },
+      "dragon_lord":{ "file": "monsters/dragon_lord.gif","fallback": "🐲" }
+    },
+    "bosses": {
+      "ferumbras":       { "file": "monsters/ferumbras.gif",       "fallback": "👿" },
+      "ghazbaran":       { "file": "monsters/ghazbaran.gif",       "fallback": "👹" },
+      "orshabaal":       { "file": "monsters/orshabaal.gif",       "fallback": "😈" },
+      "zoralissa":       { "file": "monsters/zoralissa.gif",       "fallback": "🕷️" },
+      "morgaroth":       { "file": "monsters/morgaroth.gif",       "fallback": "🐲" },
+      "infernus":        { "file": "monsters/infernus.gif",        "fallback": "🔥" },
+      "world_boss":      { "file": "monsters/world_boss.gif",      "fallback": "💀" }
+    },
+    "items": {
+      "gold_coin":   { "file": "items/gold_coin.png",   "fallback": "🪙" },
+      "health_potion": { "file": "items/health_potion.png", "fallback": "🧪" },
+      "mana_potion": { "file": "items/mana_potion.png", "fallback": "💧" },
+      "sword":       { "file": "items/sword.png",       "fallback": "🗡️" },
+      "axe":         { "file": "items/axe.png",         "fallback": "🪓" },
+      "bow":         { "file": "items/bow.png",         "fallback": "🏹" },
+      "rod":         { "file": "items/rod.png",         "fallback": "🦯" },
+      "wand":        { "file": "items/wand.png",        "fallback": "🪄" },
+      "knuckles":    { "file": "items/knuckles.png",    "fallback": "🥊" },
+      "shield":      { "file": "items/shield.png",      "fallback": "🛡️" },
+      "armor":       { "file": "items/armor.png",       "fallback": "🥋" },
+      "helmet":      { "file": "items/helmet.png",      "fallback": "⛑️" },
+      "boots":       { "file": "items/boots.png",       "fallback": "👢" },
+      "ring":        { "file": "items/ring.png",        "fallback": "💍" },
+      "amulet":      { "file": "items/amulet.png",      "fallback": "📿" }
+    },
+    "maps": {
+      "rookgaard":   { "file": "maps/rookgaard.png",   "fallback": "🏘️" },
+      "thais":       { "file": "maps/thais.png",       "fallback": "🏰" },
+      "venore":      { "file": "maps/venore.png",      "fallback": "🏙️" },
+      "kazordoon":   { "file": "maps/kazordoon.png",   "fallback": "⛰️" },
+      "edron":       { "file": "maps/edron.png",       "fallback": "🌲" },
+      "ab_dendriel": { "file": "maps/ab_dendriel.png", "fallback": "🌳" },
+      "hunt_cyclops":{ "file": "maps/hunt_cyclops.png","fallback": "⛰️" },
+      "hellgate":    { "file": "maps/hellgate.png",    "fallback": "🔥" },
+      "dragons_lair":{ "file": "maps/dragons_lair.png","fallback": "🐉" }
+    }
+  }
+}
